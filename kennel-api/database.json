@@ -6,6 +6,13 @@
             "breed": "Poodle",
             "customerId": 1,
             "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Casey",
+            "breed": "Mixed",
+            "customerId": 1,
+            "locationId": 1
         }
     ],
     "customers": [
@@ -13,9 +20,36 @@
             "id": 1,
             "name": "Hannah Hall",
             "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 2,
+            "name": "Keb' Mo'",
+            "address": "4000 North St"
+        },
+        {
+            "id": 3,
+            "name": "Suzie Q",
+            "address": "1000 North Vine"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "name": "Ray Jones",
+            "locationId": "1"
+        },
+        {
+            "name": "Mary Sue",
+            "locationId": "2"
+        },
+        {
+            "name": "Jill Smith",
+            "locationId": "1"
+        },
+        {
+            "name": "James Lewis",
+            "locationId": "2"
+        }
+    ],
     "locations": [
         {
             "id": 1,
