@@ -5,7 +5,8 @@ import { CustomerList } from "./customers/CustomerList"
 import { CustomerProvider } from "./customers/CustomerProvider"
 import { EmployeeProvider } from "./employees/EmployeeProvider"
 import { EmployeeList } from "./employees/EmployeeList"
-import { LocationCard } from "./locations/LocationCard"
+import { LocationList } from "./locations/LocationList"
+import { LocationProvider } from "./locations/LocationProvider"
 import { AnimalProvider } from "./animal/AnimalProvider"
 import { AnimalList } from "./animal/AnimalList"
 
@@ -26,9 +27,11 @@ export const ApplicationViews = () => {
             </AnimalProvider>
 
             {/* Render the location list when http://localhost:3000/locations */}
-            <Route path="/locations">
-                <LocationCard />
-            </Route>
+            <LocationProvider>
+                <Route exact path="/locations">
+                    <LocationList />
+                </Route>
+            </LocationProvider>
 
             {/* Render the customers list when http://localhost:3000/customers */}
             <CustomerProvider>
