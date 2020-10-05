@@ -34,18 +34,22 @@
     ],
     "employees": [
         {
+            "id": 1,
             "name": "Ray Jones",
             "locationId": "1"
         },
         {
+            "id": 2,
             "name": "Mary Sue",
             "locationId": "2"
         },
         {
+            "id": 3,
             "name": "Jill Smith",
             "locationId": "1"
         },
         {
+            "id": 4,
             "name": "James Lewis",
             "locationId": "2"
         }

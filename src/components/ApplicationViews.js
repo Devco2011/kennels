@@ -3,7 +3,8 @@ import { Route } from "react-router-dom"
 import { Home } from "./Home"
 import { CustomerList } from "./customers/CustomerList"
 import { CustomerProvider } from "./customers/CustomerProvider"
-import { EmployeeCard } from "./employees/EmployeeCard"
+import { EmployeeProvider } from "./employees/EmployeeProvider"
+import { EmployeeList } from "./employees/EmployeeList"
 import { LocationCard } from "./locations/LocationCard"
 import { AnimalProvider } from "./animal/AnimalProvider"
 import { AnimalList } from "./animal/AnimalList"
@@ -37,9 +38,11 @@ export const ApplicationViews = () => {
             </CustomerProvider>
 
             {/* Render the employee list when http://localhost:3000/employees */}
-            <Route path="/employees">
-                <EmployeeCard />
-            </Route>
+            <EmployeeProvider>
+                <Route exact path="/employees">
+                    <EmployeeList />
+                </Route>
+            </EmployeeProvider>
         </>
     )
 }
