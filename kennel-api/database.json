@@ -1,69 +1,81 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Casey",
-            "breed": "Mixed",
-            "customerId": 1,
-            "locationId": 1
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 2,
-            "name": "Keb' Mo'",
-            "address": "4000 North St"
-        },
-        {
-            "id": 3,
-            "name": "Suzie Q",
-            "address": "1000 North Vine"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Ray Jones",
-            "locationId": "1"
-        },
-        {
-            "id": 2,
-            "name": "Mary Sue",
-            "locationId": "2"
-        },
-        {
-            "id": 3,
-            "name": "Jill Smith",
-            "locationId": "1"
-        },
-        {
-            "id": 4,
-            "name": "James Lewis",
-            "locationId": "2"
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Casey",
+      "breed": "Mixed",
+      "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "name": "Sammy",
+      "locationId": 1,
+      "customerId": 2,
+      "id": 3
+    },
+    {
+      "name": "Millie",
+      "locationId": 2,
+      "customerId": 1,
+      "id": 4
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Keb' Mo'",
+      "address": "4000 North St"
+    },
+    {
+      "id": 3,
+      "name": "Suzie Q",
+      "address": "1000 North Vine"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ray Jones",
+      "locationId": "1"
+    },
+    {
+      "id": 2,
+      "name": "Mary Sue",
+      "locationId": "2"
+    },
+    {
+      "id": 3,
+      "name": "Jill Smith",
+      "locationId": "1"
+    },
+    {
+      "id": 4,
+      "name": "James Lewis",
+      "locationId": "2"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
