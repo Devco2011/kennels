@@ -31,17 +31,25 @@
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "par@gmail.com"
     },
     {
       "id": 2,
       "name": "Keb' Mo'",
-      "address": "4000 North St"
+      "address": "4000 North St",
+      "email": "keb@gmail.com"
     },
     {
       "id": 3,
       "name": "Suzie Q",
-      "address": "1000 North Vine"
+      "address": "1000 North Vine",
+      "email": "suz@gmail.com"
+    },
+    {
+      "email": "dcmusic@att.net",
+      "name": "Devon Cox",
+      "id": 4
     }
   ],
   "employees": [
