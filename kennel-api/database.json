@@ -11,7 +11,7 @@
             "id": 2,
             "name": "Casey",
             "breed": "Mixed",
-            "customerId": 1,
+            "customerId": 3,
             "locationId": 1
         },
         {
@@ -23,7 +23,7 @@
         {
             "name": "Millie",
             "locationId": 2,
-            "customerId": 1,
+            "customerId": 5,
             "id": 4
         }
     ],
