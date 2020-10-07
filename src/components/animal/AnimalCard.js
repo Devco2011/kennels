@@ -6,7 +6,7 @@ export const AnimalCard = ({ animal }) => (
     <section className="animal">
         <h3 className="animal__name">{animal.name}</h3>
         <Link to={`/animals/detail/${animal.id}`}>
-            {animal.name}
+            <h4>Details</h4>
         </Link>
 
     </section>
