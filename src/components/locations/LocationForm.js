@@ -6,34 +6,15 @@ import { useHistory } from 'react-router-dom';
 export const LocationForm = (props) => {
     const { addLocation } = useContext(LocationContext)
 
-    /*
-           Create references that can be attached to the input
-           fields in the form. This will allow you to get the
-           value of the input fields later when the user clicks
-           the save button.
-   
-           No more `document.querySelector()` in React.
-       */
+
     const name = useRef(null)
     const address = useRef(null)
 
 
-    /*
-        Get location state on initialization.
-    */
     useEffect(() => {
     }, [])
 
     const constructNewLocation = () => {
-        /*
-            The `location` and `customer` variables below are
-            the references attached to the input fields. You
-            can't just ask for the `.value` property directly,
-            but rather `.current.value` now in React.
-        */
-        //const locationId = +(location.current.value)
-
-
 
         addLocation({
             name: name.current.value,
