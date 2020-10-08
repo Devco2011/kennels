@@ -24,6 +24,12 @@
       "locationId": 3,
       "customerId": 5,
       "id": 5
+    },
+    {
+      "name": "Mikey",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 6
     }
   ],
   "customers": [
@@ -54,14 +60,9 @@
   ],
   "employees": [
     {
-      "id": 1,
-      "name": "Ray Jones",
-      "locationId": "1"
-    },
-    {
       "id": 3,
-      "name": "Jill Smith",
-      "locationId": "1"
+      "name": "Jane Smith",
+      "locationId": 1
     },
     {
       "id": 4,
@@ -77,6 +78,16 @@
       "name": "Frank Lambo",
       "locationId": 3,
       "id": 6
+    },
+    {
+      "name": "Sam Stone",
+      "locationId": 3,
+      "id": 7
+    },
+    {
+      "name": "Ray Jones",
+      "locationId": 1,
+      "id": 8
     }
   ],
   "locations": [
