@@ -78,7 +78,6 @@ export const ApplicationViews = () => {
                 </Route>
             </LocationProvider>
 
-
             {/* Render the customers list when http://localhost:3000/customers */}
             <CustomerProvider>
                 <Route exact path="/customers">
@@ -105,6 +104,14 @@ export const ApplicationViews = () => {
                 <Route exact path="/employees/detail/:employeeId(\d+)">
                     <EmployeeDetail />
                 </Route>
+            </EmployeeProvider>
+
+            <EmployeeProvider>
+                <LocationProvider>
+                    <Route exact path="/employees/edit/:employeeId(\d+)">
+                        <EmployeeDetail />
+                    </Route>
+                </LocationProvider>
             </EmployeeProvider>
 
 
