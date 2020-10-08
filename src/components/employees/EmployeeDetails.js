@@ -25,7 +25,7 @@ export const EmployeeDetail = () => {
     return (
         <section className="employee">
             <h3 className="employee__name">{employee.name}</h3>
-            <div className="employee__location">Location: {location.name}</div>
+            <div className="employee__location">Location: {employee.name}</div>
             <button onClick={
                 () => {
                     releaseEmployee(employee.id)

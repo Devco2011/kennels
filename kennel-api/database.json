@@ -1,99 +1,110 @@
 {
-    "animals": [
-        {
-            "id": 2,
-            "name": "Casey",
-            "breed": "Mixed",
-            "customerId": 3,
-            "locationId": 1
-        },
-        {
-            "name": "Sammy",
-            "locationId": 1,
-            "customerId": 2,
-            "id": 3
-        },
-        {
-            "name": "Millie",
-            "locationId": 2,
-            "customerId": 5,
-            "id": 4
-        },
-        {
-            "name": "Billy",
-            "locationId": 3,
-            "customerId": 5,
-            "id": 5
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct",
-            "email": "par@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "Keb' Mo'",
-            "address": "4000 North St",
-            "email": "keb@gmail.com"
-        },
-        {
-            "id": 3,
-            "name": "Suzie Q",
-            "address": "1000 North Vine",
-            "email": "suz@gmail.com"
-        },
-        {
-            "email": "cole@gmail.com",
-            "name": "Cole Jennings",
-            "address": "112 Way North",
-            "id": 5
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Ray Jones",
-            "locationId": "1"
-        },
-        {
-            "id": 3,
-            "name": "Jill Smith",
-            "locationId": "1"
-        },
-        {
-            "id": 4,
-            "name": "James Lewis",
-            "locationId": "2"
-        },
-        {
-            "name": "Sergio Maxuel",
-            "locationId": 1,
-            "id": 5
-        },
-        {
-            "name": "Frank Lambo",
-            "locationId": 3,
-            "id": 6
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        },
-        {
-            "name": "East",
-            "address": "390 Holly St",
-            "id": 3
-        }
-    ]
+  "animals": [
+    {
+      "id": 2,
+      "name": "Casey",
+      "breed": "Mixed",
+      "customerId": 3,
+      "locationId": 1
+    },
+    {
+      "name": "Sammy",
+      "locationId": 1,
+      "customerId": 2,
+      "id": 3
+    },
+    {
+      "name": "Millie",
+      "locationId": 2,
+      "customerId": 5,
+      "id": 4
+    },
+    {
+      "name": "Billy",
+      "locationId": 3,
+      "customerId": 5,
+      "id": 5
+    },
+    {
+      "name": "Mikey",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "email": "par@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Keb' Mo'",
+      "address": "4000 North St",
+      "email": "keb@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Suzie Q",
+      "address": "1000 North Vine",
+      "email": "suz@gmail.com"
+    },
+    {
+      "email": "cole@gmail.com",
+      "name": "Cole Jennings",
+      "address": "112 Way North",
+      "id": 5
+    }
+  ],
+  "employees": [
+    {
+      "id": 3,
+      "name": "Jane Smith",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "James Lewis",
+      "locationId": "2"
+    },
+    {
+      "name": "Sergio Maxuel",
+      "locationId": 1,
+      "id": 5
+    },
+    {
+      "name": "Frank Lambo",
+      "locationId": 3,
+      "id": 6
+    },
+    {
+      "name": "Sam Stone",
+      "locationId": 3,
+      "id": 7
+    },
+    {
+      "name": "Ray Jones",
+      "locationId": 1,
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "name": "East",
+      "address": "390 Holly St",
+      "id": 3
+    }
+  ]
 }
