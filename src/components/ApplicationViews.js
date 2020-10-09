@@ -63,9 +63,13 @@ export const ApplicationViews = () => {
 
             {/* Render the location list when http://localhost:3000/locations */}
             <LocationProvider>
-                <Route exact path="/locations">
-                    <LocationList />
-                </Route>
+                <AnimalProvider>
+                    <EmployeeProvider>
+                        <Route exact path="/locations">
+                            <LocationList />
+                        </Route>
+                    </EmployeeProvider>
+                </AnimalProvider>
             </LocationProvider>
 
 
@@ -76,9 +80,13 @@ export const ApplicationViews = () => {
             </LocationProvider>
 
             <LocationProvider>
-                <Route exact path="/locations/detail/:locationId(\d+)">
-                    <LocationDetail />
-                </Route>
+                <AnimalProvider>
+                    <EmployeeProvider>
+                        <Route exact path="/locations/detail/:locationId(\d+)">
+                            <LocationDetail />
+                        </Route>
+                    </EmployeeProvider>
+                </AnimalProvider>
             </LocationProvider>
 
             {/* Render the customers list when http://localhost:3000/customers */}
